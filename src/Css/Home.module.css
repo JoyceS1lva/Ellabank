@@ -1,0 +1,308 @@
+
+article{
+    width: 100%;
+    height:900px;
+   
+}
+
+.Banner{
+    width: 100%;
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    background-color: #FFFBF5;
+}
+
+.Bigfrase{
+    width: 50%;
+    height: 600px;
+    background-color: #FFFBF5;
+    font-size: 40px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.Bigfrase img{
+    width: 150px;
+    height: 50px;
+}
+
+.Iconplays{
+    margin-left: 200px;
+}
+
+.Sublinha{
+    padding-top: 220px;
+    padding-bottom: 10px;
+    position: relative;
+    margin: auto;
+}
+
+.Sublinha:after{
+content: "";
+position: absolute;
+background-color: #C36B48;
+height: 3px;
+width: 65%;
+left: 250px;
+bottom: -10px;
+}
+
+
+
+.Bannercircle{
+    width: 50%;
+    height: 600px;
+    background-color: #FFFBF5;
+}
+
+.Bannercircle img{
+   margin-left: 130px;
+   margin-top: 50px;
+    
+}
+
+.Beneficios{
+    width: 100%;
+    height: 400px;
+    background-color: #FFFBF5;
+    margin: auto;
+    background-image: url('../img/background5.png');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.Beneficios img{
+    width: 230px;
+    height: 300px;
+    cursor: pointer;
+    
+}
+
+
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    color: #1D1249;
+    background-color: #FFFBF5;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.Cartoes{
+    width: 100%;
+    height: auto;
+    background-color: #FFFBF5;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Cartoesarea{
+    width: 50%;
+    height: 400px;
+    background-color: #FFFBF5;
+}
+
+.Cartoesarea img{
+    width: 450px;
+    height: 300px;
+    margin-left: 130px;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(0px 0px 10px rgba(145, 145, 145, 0.9)); 
+        filter: drop-shadow(0px 0px 10px rgba(0 0 0 / 80%));
+}
+
+.Textcartao{
+    width: 50%;
+    height: 400px;
+    background-color: #FFFBF5;
+    text-align: center;
+    color: hsl(252, 60%, 18%);
+}
+
+.Textinho{
+    padding-top: 30px;
+    padding-bottom: 0;
+    font-size: 20px;
+}
+
+
+h4{
+    position: relative;
+    width: 150px;
+    margin: auto;
+    font-size: 40px;
+    padding-top: 100px;
+}
+
+h4:after{
+content: "";
+position: absolute;
+background-color: #FF418A;
+height: 3px;
+width: 100%;
+left: 0;
+bottom: -10px;
+transition: 0.3s ;
+}
+
+h6{
+    font-size: 20px;
+    cursor: pointer;
+    color: #C36B48;
+    margin-top: 30px;
+}
+
+h6:hover{
+    color:#BA316F;
+}
+
+.IA{
+    width: 100%;
+    height: 700px;
+    background-color: #FFFBF5;
+    display: flex;
+    flex-direction: row;
+}
+
+.ImagemIA img{
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.TextoIA{
+    width: 50%;
+    height:400px ;
+    padding-top:250px;
+    padding-left:50px;
+    text-align: center;
+}   
+
+
+.Email{
+    width: 100%;
+    height: 350px;
+    background-color: #F5C0D4;
+}
+
+.Tituloajuda{
+    width: 50%;
+    height: 350px; 
+    background-color: #FF418A;
+
+}
+
+
+form{
+   margin-left: 50px;
+}
+
+.Email h5{
+    font-size: 28px;
+    font-weight: normal;
+    margin-left: 50px;
+    padding-top: 15px;
+}
+
+.Email input{
+    width: 46%;
+    height: 30px;
+    margin-top: 10px;
+    
+}
+
+.Email textarea{
+    width: 50%;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.Email button{
+    margin-top: 10px;
+    margin-left: 45%;
+}
+
+
+.Parceiros{
+    width:100% ;
+    height: 400px;
+    background-color: #FFFBF5;
+   
+}
+
+.Parceiros img{
+    width: 180px;
+    height: 180px;
+    margin-top: 20px;
+    
+}
+
+.ImgParceiros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer{
+    width: 100%;
+    height:200px;
+    background-color:#FFB583;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+footer h6{
+color: #BA316F;
+}
+
+
+.Logofooter{
+    width: 20%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Logofooter img{
+width: 130px;
+height: 120px;
+}
+
+.Icons{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Outrasinfo{
+   
+    height:300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+}
+
+h5:hover{
+    color:chocolate
+}
+
+

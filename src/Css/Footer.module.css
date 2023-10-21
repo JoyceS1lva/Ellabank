@@ -1,0 +1,52 @@
+
+footer{
+    width: 100%;
+    height:200px;
+    background-color:#FFB583;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+footer h6{
+color: #BA316F;
+}
+
+
+.Logofooter{
+    width: 20%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Logofooter img{
+width: 130px;
+height: 120px;
+}
+
+.Icons{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Outrasinfo{
+   
+    height:300px;
+    display: flex;
+    flex-direction: column;
+}
+
+h5{
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+}
+
+h5:hover{
+    color:chocolate
+}
+
